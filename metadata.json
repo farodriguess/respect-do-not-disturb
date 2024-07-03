@@ -1,0 +1,8 @@
+{
+    "uuid": "respect-do-not-disturb@farodriguess",
+    "name": "Respect Do Not Disturb",
+    "description": "GNOME Shell Extension to force annoying notifications to respect do not disturb function.",
+    "shell-version": [ "45", "46" ],
+    "url": "https://github.com/farodriguess/respect-do-not-disturb",
+    "settings-schema": "org.gnome.shell.extensions.respect-do-not-disturb@farodriguess"
+}

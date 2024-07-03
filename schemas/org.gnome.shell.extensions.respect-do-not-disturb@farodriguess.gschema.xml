@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.respect-do-not-disturb@farodriguess" path="/org/gnome/shell/extensions/respect-do-not-disturb@farodriguess/">
+    <key name="block-all" type="b">
+      <default>true</default>
+      <summary>Block all urgent notifications</summary>
+    </key>
+    <key name="application-block-list" type="as">
+      <default>[ ]</default>
+      <summary>Application list to ignore urgent notifications</summary>
+    </key>
+  </schema>
+</schemalist>
