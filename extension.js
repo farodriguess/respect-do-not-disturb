@@ -45,6 +45,7 @@ export default class RespectDDMExtension extends Extension {
     MessageTray.MessageTray.prototype._updateState =
       MessageTray.MessageTray.prototype._updateStateOriginal;
     delete MessageTray.MessageTray.prototype._updateStateOriginal;
+    block_application_list = null;
   }
 
   _readNotificationSettings() {
